@@ -1,0 +1,73 @@
+header{
+    top: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato-Regular';
+    
+    
+}
+
+header nav{
+    height: 170px;
+    width: 80%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    
+}
+
+.brand-tag{
+    font-family: 'Lato-Bold';
+    font-size: 3em;
+    background-image: url('../../assets/icons/Owli.svg');
+    background-size: 50px;
+}
+
+.links-navigation{
+    margin-left: 10%;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.links-navigation  a {
+    
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+.enter-or-buy-nav{
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.3em;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+
+.enter{
+    margin-right: 5%;
+    text-decoration: none;
+    color: white;
+}
+.buy{
+  text-align: center;
+  width: 25%;
+  background-color: transparent; 
+  font-size: 0.8em;
+  line-height: 3em; 
+  border: 1px solid white;
+  border-radius: 3px; 
+}
+
+.buy::after{
+    content: url('../../assets/icons/arrow-left-right-small.svg');
+    padding-left: 10px; 
+}

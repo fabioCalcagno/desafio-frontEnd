@@ -1,0 +1,22 @@
+<div class="cards-box box-style-1" *ngIf="styleColor=='1';else style2">
+    <div class="cards-wrapper">
+        <h3>Plano indicado</h3>
+        <p class="gray">Recursos ilimitados</p>
+        <h1 appCardsStyle2 >145</h1>
+        <p class="gray" appCardsStyle2>loremi spsp sdasd ds dsad</p>
+        <p class="gray" appCardsStyle2>dsadadsadsd dsadadasda dsa</p>
+        <button class="button-commom button-style-1">Comprar</button>
+    </div>
+</div>
+<ng-template #style2>
+    <div class="cards-box box-style-2">
+        <div class="cards-wrapper" >
+            <h3 class="sub-title-2">Plano indicado</h3>
+            <p class="gray">Recursos ilimitados</p>
+            <h1 appCardsStyle2>145</h1>
+            <p class="gray" appCardsStyle2>loremi spsp sdasd ds dsad</p>
+            <p class="gray" appCardsStyle2>dsadadsadsd dsadadasda dsa</p>
+            <button appCardsStyle2 class="button-commom button-style-2">Comprar</button>
+        </div>
+    </div>
+</ng-template>
