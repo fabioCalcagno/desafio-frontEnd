@@ -17,7 +17,7 @@ export class CardsStyle2Directive implements OnInit{
   ngOnInit(): void {
       
     
-    this.renderer.setElementClass(this.el.nativeElement, 'margin-bottom-style', true); 
+    this.renderer.setElementAttribute(this.el.nativeElement, 'margin-bottom-style'); 
     
   }
 

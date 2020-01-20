@@ -1,22 +1,24 @@
 
 .cadastro-form{
+    overflow-x: hidden;
+    flex: 1;
     display: flex;
-    width: 120%;
-    height: auto;
     flex-flow: column wrap;
     justify-content: space-between; 
     background-color: white;
     border-radius: 5px;
+  
     
 }
 .cadastro-form .container{
-    height: 100%;
+    flex: 1 1 auto;
     text-align: center;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
     min-height: 450px;
+    min-width: 390px;
 }
 
 .cadastro-form .container > :nth-child(n + 2){
@@ -65,7 +67,7 @@ button{
   border: none;
   background-color: #0576FF;
   width: 90% !important;
-  margin-top: 20px!important;
+  margin: 20px 0 20px 0!important;
   text-align: center;
   color: white;
   font-size: 1.3em!important;

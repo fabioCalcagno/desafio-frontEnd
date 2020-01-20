@@ -9,6 +9,8 @@ import { CadastroImobiliariaComponent } from './cadastro-imobiliaria/cadastro-im
 import { PromoViewComponent } from './promo-view/promo-view.component';
 import { CardsComponent } from './cards/cards.component';
 import { CardsStyle2Directive } from './cards/styles/cards-style2.directive';
+import { JoinUsComponent } from './join-us/join-us.component';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CardsStyle2Directive } from './cards/styles/cards-style2.directive';
     CadastroImobiliariaComponent,
     PromoViewComponent,
     CardsComponent,
-    CardsStyle2Directive
+    CardsStyle2Directive,
+    JoinUsComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

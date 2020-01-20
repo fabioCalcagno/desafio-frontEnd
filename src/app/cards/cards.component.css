@@ -9,6 +9,7 @@
       }        
 
 .cards-box{
+    overflow-x: hidden;
     display: flex;
     flex-flow: column wrap;
     align-items: center;

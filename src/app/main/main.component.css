@@ -1,73 +1,34 @@
 
 body{
+    left: -15px;
     top: 0;
-    left: 0;
-    width: 100%;
-    
-    position: absolute;
+    width: 101%;
+    position: relative;
+    overflow-x: hidden;
     font-family: 'Lato-Regular';
     background: linear-gradient(to right,#119FE5 40%, #6BCDFB 100%);
 }
 
 
 .main-section{
+    overflow-x: hidden;
     background-color: transparent;
     min-height: 550px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
 }
 
 .main-section .container{
     background-color: transparent;
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-flow: row wrap;
-}
-
-.main-join-us{
-    flex: 1;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: flex-start;
-    justify-content: center;
-    color: white;
-    text-align: initial;
-    padding-left: 10%;
-}
-
-.main-join-us > h1{
-    font-size: 3.5em;
-    margin: 0;
-    text-indent: 0;
-}
-
-.main-join-us h2{
-    font-size: 2em;
-}
-
-.main-join-us a{
-    text-align: center;
-    text-decoration: none;
-    line-height: 3em;
-    font-size: 1.3em;
-    width: 250px!important;
-    background-color: #FFFFFF;
-    color: rgb(17, 16, 16);
-    border-radius: 5px;
+    justify-content: space-around;
     
 }
 
-.main-join-us a::after{
-    content: url('../../assets/icons/arrow-right-black-small.svg');
-    background-size: contain; 
-    padding-left: 10px; 
-  
-}
-
-.main-cadastro{
-    flex: 2;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center; 
-}
 
 
 

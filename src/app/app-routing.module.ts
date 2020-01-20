@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { MainComponent } from './main/main.component';
 import { PromoViewComponent } from './promo-view/promo-view.component';
 import { CardsComponent } from './cards/cards.component';
+import { BannerComponent } from './banner/banner.component';
 
 
 
@@ -13,7 +14,7 @@ const routes: Routes = [
     path: '',
   },
   {
-    component: CardsComponent,
+    component: BannerComponent,
     path: 'teste',
   }
 
