@@ -11,6 +11,7 @@ import { CardsComponent } from './cards/cards.component';
 import { CardsStyle2Directive } from './cards/styles/cards-style2.directive';
 import { JoinUsComponent } from './join-us/join-us.component';
 import { BannerComponent } from './banner/banner.component';
+import { SliderOptionsComponent } from './slider-options/slider-options.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BannerComponent } from './banner/banner.component';
     CardsComponent,
     CardsStyle2Directive,
     JoinUsComponent,
-    BannerComponent
+    BannerComponent,
+    SliderOptionsComponent
   ],
   imports: [
     BrowserModule,

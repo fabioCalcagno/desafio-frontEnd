@@ -18,17 +18,21 @@ header nav{
     align-items: center;
     
 }
+.image-wrapper{
+    flex: 1;
+}
 
 .brand-tag{
     font-family: 'Lato-Bold';
     font-size: 3em;
     background-image: url('../../assets/icons/Owli.svg');
     background-size: 50px;
+    margin-right:  10%;
 }
 
 .links-navigation{
-    margin-left: 10%;
-    flex: 1;
+    
+    flex: 1 1 auto;
     display: flex;
     justify-content: space-around;
     
@@ -60,7 +64,8 @@ header nav{
 }
 .buy{
   text-align: center;
-  width: 25%;
+  
+  min-width: 130px;
   background-color: transparent; 
   font-size: 0.8em;
   line-height: 3em; 
@@ -72,3 +77,5 @@ header nav{
     content: url('../../assets/icons/arrow-left-right-small.svg');
     padding-left: 10px; 
 }
+
+

@@ -14,7 +14,7 @@ const routes: Routes = [
     path: '',
   },
   {
-    component: BannerComponent,
+    component: HeaderComponent,
     path: 'teste',
   }
 
