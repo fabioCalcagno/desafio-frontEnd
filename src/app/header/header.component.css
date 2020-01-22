@@ -1,3 +1,10 @@
+
+
+
+    #menu-responsivo{
+        display: none;
+    }
+
 header{
     overflow-x: hidden;
     top: 0;
@@ -16,6 +23,7 @@ header nav{
     justify-content: center;
     color: white;
     align-items: center;
+    background-image: transparent;
     
 }
 
@@ -83,8 +91,17 @@ header nav{
     padding-left: 10px; 
 }
 
-
+ 
 @media(max-width:1000px){
+
+    #menu-responsivo{
+        display: flex;
+        align-self: center;
+     background-size: 50px;
+     max-height: 50px;
+     background-repeat: no-repeat;
+    }
+    
     header nav{
         min-height: 100px;
         height: auto;
@@ -92,13 +109,8 @@ header nav{
         overflow: hidden;
         align-items: flex-start;
         justify-content: space-around;  
-        background-image: url('../../assets/icons/menu-responsivo.png');
-        background-repeat: no-repeat;
-        background-position-x: right;
-        background-position-y: center;
-        background-size: 50px;
+    
     }
-
 
 
     .image-wrapper{
