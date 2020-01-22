@@ -47,15 +47,16 @@ export class CardsStyle2Directive{
              
             }
 
-            @HostListener('window:resize', ['$event'])
+       /*      @HostListener('window:resize', ['$event'])
             onResize(event) {
              let a =  event.target.innerWidth;
+             console.log(a)
              if(a > 1000){
               this.el.nativeElement.querySelector('.links-navigation').style.display = "flex";
               this.el.nativeElement.querySelector('.enter-or-buy-nav').style.display = "flex";
              }
             }
-
+ */
         
 
 

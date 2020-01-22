@@ -29,7 +29,17 @@ body{
     
 }
 
+@media(max-width:1075px){
+   .container {
+       flex-flow: column wrap;
+}
+}
 
+@media(max-width:1000px){
+    .main-cadastro{
+        min-height: 500px;
+    }
+}
 
 
 

@@ -1,14 +1,5 @@
 
 
-.container{
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-    background-color: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
   
 .slider-options{
     position: fixed;
@@ -17,7 +8,7 @@
     width: 130px;
     background-color: rgba(0, 0, 0, 0.1);
     display: flex;
-   
+    margin-top:40vh;
     background-repeat: no-repeat;
     background-size: 20%;
 

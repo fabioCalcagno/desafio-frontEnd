@@ -49,3 +49,29 @@ h2{
     flex-flow: column wrap;
     align-items: center; 
 }
+
+
+@media(max-width:1075px){
+     .main-join-us{
+          
+          align-items: center;
+          justify-content: space-evenly;
+          color: white;
+          text-align: initial;
+          min-height: 450px;
+          flex-shrink: 2;
+          
+      }
+
+      h1{
+          font-size: 2.0em;
+          width: 100%;
+          text-align: center;
+      }
+
+      h2{
+          font-size: 1.3em;
+          width: 80%;
+          text-align: center;
+      }
+}

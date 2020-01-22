@@ -73,31 +73,32 @@ button{
   font-size: 1.3em!important;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-::-webkit-input-placeholder { /* Edge */
-    color: red;
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: red;
-  }
-  
-  ::placeholder {
-    color: red;
-  }
-
-
   .cadastro-form input::-webkit-input-placeholder{
     color: #686868;
     font-size: 1.3em;
+}
+
+.cadastro-form input:-ms-input-placeholder{
+    color: #686868;
+    font-size: 1.3em;
+}
+
+.cadastro-form input ::placeholder {
+    color: #686868;
+    font-size: 1.3em;
+}
+
+@media(max-width:500px){
+    
+
+.container{
+        flex: 1;
+        width: 200px;
+        
+        min-height: 400px!important;
+        min-width: 300px!important;
+    }
+
+
+
 }

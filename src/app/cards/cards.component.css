@@ -117,3 +117,36 @@ p:nth-of-type(3){
     background-repeat: no-repeat;
   }
 
+
+  @media(max-width:850px){
+    .cards-box{
+       
+        justify-content: space-around;
+      
+        width: 20%;
+        min-width: 300px!important;
+        min-height: 400px!important;
+    }
+  }
+ @media(max-width:700px){
+    .cards-box{
+       
+        min-width: auto;
+        min-height: auto;
+        margin: 0 auto;
+        
+    }
+.cards-box:nth-of-type(1){
+       margin-bottom: 15px;
+    }
+.box-style-2{
+        border: 2px solid #0576FF; 
+        transform: scale(1.0);      
+          } 
+          
+          
+.cards-wrapper{
+            width: 100%;
+        }     
+       
+  }
