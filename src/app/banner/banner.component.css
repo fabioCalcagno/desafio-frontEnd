@@ -26,8 +26,24 @@
     background-size: cover;
     background-repeat: no-repeat;
     color:white;
+    font-size: 1.3em;
+    
    
 
+}
+
+
+.button-link-header{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1em;
+    color: white;
+    width: 20%;
 }
 
 button{
@@ -54,9 +70,6 @@ button:nth-of-type(2){
     right: 15%;
     
 }
-.banner-btn{
-
-}
 
 
 img{
@@ -76,8 +89,25 @@ img{
     99%{background-image: url('../../assets/imagens/banner/img3.png')}
 }
 
+@media(max-width:855px){
+    .button-link-header{
+       font-size: 0.8em!important;
+        padding: 1em;
+        color: white;
+        width: 20%;
+    }
+}
+
 
 @media(max-width: 815px){
+
+
+    .button-link-header{
+        font-size: 0.5em!important;
+         padding: 1em;
+         color: white;
+         width: 20%;
+     }
     
 .banner-section{
    
@@ -110,3 +140,19 @@ img{
     
   }
 }
+
+
+
+@media(max-width: 470px){
+
+
+    .button-link-header{
+        display: inline;
+        
+        font-size: 0.4em!important;
+         padding: 1em;
+         color: white;
+         
+     }
+
+    }

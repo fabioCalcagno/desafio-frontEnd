@@ -8,10 +8,11 @@ import { MainComponent } from './main/main.component';
 import { CadastroImobiliariaComponent } from './cadastro-imobiliaria/cadastro-imobiliaria.component';
 import { PromoViewComponent } from './promo-view/promo-view.component';
 import { CardsComponent } from './cards/cards.component';
-import { CardsStyle2Directive } from './cards/styles/cards-style2.directive';
+import { MenuResponsivoDirective } from './header/menu-responsivo/menu-responsivo.directive';
 import { JoinUsComponent } from './join-us/join-us.component';
 import { BannerComponent } from './banner/banner.component';
 import { SliderOptionsComponent } from './slider-options/slider-options.component';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +22,7 @@ import { SliderOptionsComponent } from './slider-options/slider-options.componen
     CadastroImobiliariaComponent,
     PromoViewComponent,
     CardsComponent,
-    CardsStyle2Directive,
+    MenuResponsivoDirective,
     JoinUsComponent,
     BannerComponent,
     SliderOptionsComponent
@@ -29,6 +30,7 @@ import { SliderOptionsComponent } from './slider-options/slider-options.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
+    
     
   ],
   providers: [],

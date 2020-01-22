@@ -2,9 +2,9 @@ import { Directive, ElementRef,Renderer2, OnInit, Input, HostListener, OnChanges
 
 
 @Directive({
-  selector: '[appCardsStyle2]'
+  selector: '[appMenuResponsivo]'
 })
-export class CardsStyle2Directive{
+export class MenuResponsivoDirective{
   
 
   constructor(private el: ElementRef,
