@@ -47,7 +47,7 @@ export class CardsStyle2Directive{
              
             }
 
-       /*      @HostListener('window:resize', ['$event'])
+            @HostListener('window:resize', ['$event'])
             onResize(event) {
              let a =  event.target.innerWidth;
              console.log(a)
@@ -56,7 +56,7 @@ export class CardsStyle2Directive{
               this.el.nativeElement.querySelector('.enter-or-buy-nav').style.display = "flex";
              }
             }
- */
+
         
 
 
