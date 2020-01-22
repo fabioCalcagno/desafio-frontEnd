@@ -9,7 +9,7 @@ header{
 }
 
 header nav{
-    height: 170px;
+    height: 150px;
     width: 80%;
     background-color: transparent;
     display: flex;
@@ -18,9 +18,14 @@ header nav{
     align-items: center;
     
 }
+
+
 .image-wrapper{
     flex: 1;
+    display: flex;
+    justify-content: space-between;
 }
+
 
 .brand-tag{
     font-family: 'Lato-Bold';
@@ -48,7 +53,7 @@ header nav{
 
 
 .enter-or-buy-nav{
-    flex: 2;
+    flex: 1;
     display: flex;
     justify-content: flex-end;
     font-size: 1.3em;
@@ -79,3 +84,57 @@ header nav{
 }
 
 
+@media(max-width:1000px){
+    header nav{
+        min-height: 100px;
+        height: auto;
+        flex-flow: column nowrap;
+        overflow: hidden;
+        align-items: flex-start;
+        justify-content: space-around;  
+        background-image: url('../../assets/icons/menu-responsivo.png');
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: center;
+        background-size: 50px;
+    }
+
+
+
+    .image-wrapper{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .links-navigation{
+        display: none;
+        flex-flow: column wrap;
+        align-items: flex-start;
+        padding-top: 5px;
+        
+
+    }
+    .links-navigation a {
+        padding-top: 5px;
+
+    }
+    .enter-or-buy-nav{
+        display: none;
+        flex-flow: column wrap;
+        align-items: flex-start;
+        padding-top: 5px;
+       
+    }
+    .buy{
+        text-align: start;
+        
+        min-width: 130px;
+        background-color: transparent; 
+        font-size: 0.8em;
+        line-height: 3em; 
+        border: none;
+        border-radius: 3px; 
+      }
+      
+}
